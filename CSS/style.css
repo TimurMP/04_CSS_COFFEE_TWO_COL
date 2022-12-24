@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@500;600;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    /*margin: 0;*/
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+    /*padding-top: 135px;*/
+    /*box-sizing: border-box;*/
+    padding-top: 1px;
+    top: 0;
+    /*position: sticky;*/
+
+}
+
+.header > h1 {
+    font-size: 100px;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgba(3, 150, 100, 0.75);
+    text-align: center;
+    /*margin-top: 133px;*/
+    padding-top: 133px;
+}
+
+/*.main > ul {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*    height: 900px;*/
+/*}*/
+
+.main  {
+    margin: 30px 0;
+    /*border-bottom: 1px solid lightsalmon;*/
+    padding-bottom: 50px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.main  h2 {
+    font-weight: 800;
+    font-size: 28px;
+    background-color: #cebcee;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.main  p {
+    color: #454;
+    font-weight: 500;
+    text-align: justify;
+    padding: 0 5px;
+    text-indent: 32px;
+    line-height: 1.5;
+
+
+}
+
+.main  a {
+    color: darkslategray;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+
+
+}
+.brazil, .colombia, .india, .ethiopia, .cr, .kenya {
+    height: 150px;
+    width: 50%;
+    position: absolute;
+}
+
+
+.brazil {
+    /*background-color: yellow;*/
+    left: 0;
+
+}
+.colombia {
+    right: 0;
+    margin-left: 5px;
+}
+
+.india {
+    left: 0;
+    top: 160px;
+}
+
+.ethiopia {
+    right: 0;
+    top: 160px;
+    margin-left: 5px;
+}
+
+.cr
+{
+    left: 0;
+    top: 320px;
+
+}
+
+.kenya{
+    right: 0;
+    top: 320px;
+    margin-left: 5px;
+
+}
